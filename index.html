@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+    <section class="result">
+        <h1 class="result-title">Your Result</h1>
+        <div class="result-score">
+            <div class="score-value">76</div>
+            of 100
+        </div>
+        <div class="result-text">
+            <p class="result-rank">Great</p>
+            <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+    </section>
+    <section class="summary">
+        <h2 class="summary-title">Summary</h2>
+        <div class="summary-content">
+            <div class="summary-item clr-accent-1">
+                <div class="summary-category">
+                    <img class="summary-icon" src="images/icon-reaction.svg" alt="" aria-hidden="true">
+                    <p>Reaction</p>
+                </div>
+                <p class="summary-score">
+                    <span>80</span> / 100
+                </p>
+            </div>
+            <div class="summary-item clr-accent-2">
+                <div class="summary-category">
+                    <img class="summary-icon" src="images/icon-memory.svg" alt="" aria-hidden="true">
+                    <p>Memory</p>
+                </div>
+                <p class="summary-score">
+                    <span>92</span> / 100
+                </p>
+            </div>
+            <div class="summary-item clr-accent-3">
+                <div class="summary-category">
+                    <img class="summary-icon" src="images/icon-verbal.svg" alt="" aria-hidden="true">
+                    <p>Verbal</p>
+                </div>
+                <p class="summary-score">
+                    <span>61</span> / 100
+                </p>
+            </div>
+            <div class="summary-item clr-accent-4">
+                <div class="summary-category">
+                    <img class="summary-icon" src="images/icon-visual.svg" alt="" aria-hidden="true">
+                    <p>Visual</p>
+                </div>
+                <p class="summary-score">
+                    <span>72</span>  / 100
+                </p>
+            </div>
+        </div>
+        <button class="button">Continue</button>
+    </section>
+</main>
+</body>
+</html>

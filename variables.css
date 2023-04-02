@@ -1,0 +1,29 @@
+/** Variables **/
+:root {
+    --hsl-neutral-300: 241 100% 89%;
+    --hsl-neutral-900: 224 30% 27%;
+
+    --hsl-accent-1: 0 100% 67%;
+    --hsl-accent-2: 39 100% 56%;
+    --hsl-accent-3: 166 100% 37%;
+    --hsl-accent-4: 234 85% 45%;
+
+    --clr-neutral-100: hsl(0 0% 100%);
+    --clr-neutral-200: hsl(221 100% 96%);
+    --clr-neutral-300: hsl(var(--hsl-neutral-300));
+    --clr-neutral-900: hsl(var(--hsl-neutral-900));
+
+    --grad-background: linear-gradient(hsl(252 100% 67%), hsl(241 81% 54%));
+    --grad-circle: linear-gradient(hsl(256 72% 46%), hsl(241 72% 46% / 0));
+
+    --ff-body: 'Hanken Grotesk', sans-serif;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+
+    --fs-body: 1.125rem;
+    --fs-heading: 1.5rem;
+    --fs-result-summary: 2rem;
+    --fs-score-value: 4.5rem;
+}
